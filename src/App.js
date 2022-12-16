@@ -1,5 +1,6 @@
 import "./App.css";
-import Login from "./hooks/Form/Login";
+// import Login from "./hooks/Form/Login";
+import Usememo1 from "./hooks/usememo1/Usememo1";
 // import UseMemo from "./hooks/UseMemo";
 // import Refsdemo from "./Refsdemo";
 
@@ -9,7 +10,8 @@ function App() {
       <h1>React hooks practice </h1>
       {/* <Refsdemo /> */}
       {/* <UseMemo /> */}
-      <Login />
+      {/* <Login /> */}
+      <Usememo1 />
     </div>
   );
 }
